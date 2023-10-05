@@ -1,5 +1,6 @@
-import { getBooking } from "@/controllers/bookings-controller";
-import { authenticateToken } from "@/middlewares";
+import { getBooking, postBooking } from "@/controllers/bookings-controller";
+import { authenticateToken, validateBody } from "@/middlewares";
+import { postBookingSchema } from "@/schemas/bookings-schemas";
 import { Router } from "express";
 
 const bookingsRouter = Router();
@@ -7,7 +8,7 @@ const bookingsRouter = Router();
 bookingsRouter
               .all('/*', authenticateToken)
               .get('/', getBooking)
-              .post('/') //todo
+              .post('/', validateBody(postBookingSchema), postBooking) //todo
               .put('/:bookingId') //todo
 
 export { bookingsRouter };
