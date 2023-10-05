@@ -15,16 +15,27 @@ async function postBooking(userId: number, roomId: number){
     if (ticket.TicketType.isRemote || !ticket.TicketType.includesHotel || ticket.status != 'PAID'){
         throw forbidenError();
     }
-    console.log(ticket)
     const roomInfo = await hotelRepository.findRoomById(roomId);
     if (!roomInfo) throw notFoundError();
     const roomBooking = await bookingsRepository.getBookingByRoomId(roomId);
-    if (roomBooking.length > roomInfo.capacity+1) throw forbidenError();
-    console.log(roomBooking);
-    console.log(roomInfo)
+    if (roomBooking.length >= roomInfo.capacity+1) throw forbidenError();
+    const { id } = await bookingsRepository.postBooking(userId, roomId);
+    return {bookingId: id};
+}
+
+async function putBooking(userId: number, roomId: number, bookingId: number) {
+    const userBooking = await bookingsRepository.getBooking(userId);
+    if (!userBooking) throw forbidenError();
+    const roomInfo = await hotelRepository.findRoomById(roomId);
+    if (!roomInfo) throw notFoundError();
+    const roomBooking = await bookingsRepository.getBookingByRoomId(roomId);
+    if (roomBooking.length >= roomInfo.capacity+1) throw forbidenError();
+    const { id } = await bookingsRepository.putBooking(bookingId, roomId);
+    return {bookingId: id};
 }
 
 export const bookingsService = {
     getBooking,
-    postBooking
+    postBooking, 
+    putBooking
 }

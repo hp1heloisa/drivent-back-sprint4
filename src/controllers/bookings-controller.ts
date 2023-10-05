@@ -15,3 +15,11 @@ export async function postBooking(req: AuthenticatedRequest, res: Response){
     const request = await bookingsService.postBooking(userId, roomId);
     res.status(httpStatus.OK).send(request);
 }
+
+export async function putBooking(req: AuthenticatedRequest, res: Response){
+    const { userId } = req;
+    const { roomId } = req.body;
+    const { bookingId } = req.params;
+    const request = await bookingsService.putBooking(userId, roomId, Number(bookingId));
+    res.status(httpStatus.OK).send(request);
+}
