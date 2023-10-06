@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1696616641636" clover="3.2.0">
+  <project timestamp="1696616641637" name="All files">
+    <metrics statements="550" coveredstatements="533" conditionals="83" coveredconditionals="67" methods="98" coveredmethods="90" elements="731" coveredelements="690" complexity="0" loc="550" ncloc="550" packages="10" files="69" classes="69"/>
+    <package name="src">
+      <metrics statements="22" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
+      <file name="app.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/app.ts">
+        <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="35" count="11" type="stmt"/>
+        <line num="36" count="11" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+        <line num="40" count="11" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="11" type="stmt"/>
+      </file>
+      <file name="server.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/server.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.config">
+      <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="database.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/config/database.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="4" count="15" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="8" count="15" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="envs.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/config/envs.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="2" count="15" type="stmt"/>
+        <line num="4" count="15" type="stmt"/>
+        <line num="6" count="26" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="26" type="stmt"/>
+        <line num="13" count="26" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/config/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="2" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="91" coveredstatements="91" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="16"/>
+      <file name="authentication-controller.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/authentication-controller.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+      <file name="bookings-controller.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/bookings-controller.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+      <file name="enrollments-controller.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/enrollments-controller.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="events-controller.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/events-controller.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="hotels-controller.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/hotels-controller.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+      </file>
+      <file name="payments-controller.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/payments-controller.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+      </file>
+      <file name="tickets-controller.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/tickets-controller.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+      <file name="users-controller.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/controllers/users-controller.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.errors">
+      <metrics statements="38" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="10"/>
+      <file name="cannot-enroll-before-start-date-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/cannot-enroll-before-start-date-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="cannot-list-hotels-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/cannot-list-hotels-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+      </file>
+      <file name="conflict-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/conflict-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="duplicate-email-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/duplicate-email-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+      <file name="enrollment-not-found-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/enrollment-not-found-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="forbiden-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/forbiden-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/index.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="7" count="12" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+      </file>
+      <file name="invalid-cep-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/invalid-cep-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="invalid-credentials-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/invalid-credentials-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+      </file>
+      <file name="invalid-data-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/invalid-data-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="15" type="stmt"/>
+      </file>
+      <file name="invalid-email-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/invalid-email-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="not-found-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/not-found-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="21" type="stmt"/>
+      </file>
+      <file name="request-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/request-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="unauthorized-error.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/errors/unauthorized-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="26" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.middlewares">
+      <metrics statements="56" coveredstatements="51" conditionals="23" coveredconditionals="20" methods="7" coveredmethods="6"/>
+      <file name="authentication-middleware.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/middlewares/authentication-middleware.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="94" type="stmt"/>
+        <line num="8" count="94" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="82" type="stmt"/>
+        <line num="11" count="82" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="82" type="stmt"/>
+        <line num="15" count="70" type="stmt"/>
+        <line num="16" count="70" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="58" type="stmt"/>
+        <line num="19" count="58" type="stmt"/>
+      </file>
+      <file name="error-handling-middleware.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/middlewares/error-handling-middleware.ts">
+        <metrics statements="28" coveredstatements="24" conditionals="18" coveredconditionals="16" methods="1" coveredmethods="1"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="11" count="87" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="17" count="85" type="cond" truecount="3" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="84" type="cond" truecount="3" falsecount="0"/>
+        <line num="24" count="14" type="stmt"/>
+        <line num="29" count="70" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="35" count="55" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="41" count="40" type="cond" truecount="0" falsecount="1"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="47" count="40" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="26" type="stmt"/>
+        <line num="53" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="13" type="cond" truecount="0" falsecount="1"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="62" count="6" type="stmt"/>
+        <line num="65" count="7" type="cond" truecount="3" falsecount="0"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="71" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="72" count="6" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/middlewares/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="validation-middleware.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/middlewares/validation-middleware.ts">
+        <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="77" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="77" type="stmt"/>
+        <line num="15" count="45" type="stmt"/>
+        <line num="19" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="31" type="stmt"/>
+        <line num="22" count="14" type="stmt"/>
+        <line num="23" count="32" type="stmt"/>
+        <line num="24" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.repositories">
+      <metrics statements="63" coveredstatements="63" conditionals="1" coveredconditionals="1" methods="22" coveredmethods="22"/>
+      <file name="address-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/address-repository.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+      </file>
+      <file name="authentication-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/authentication-repository.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="11" count="70" type="stmt"/>
+        <line num="18" count="12" type="stmt"/>
+      </file>
+      <file name="bookings-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/bookings-repository.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="12" type="stmt"/>
+      </file>
+      <file name="enrollments-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/enrollments-repository.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="5" count="35" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+      </file>
+      <file name="events-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/events-repository.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="7" count="12" type="stmt"/>
+      </file>
+      <file name="hotels-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/hotels-repository.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="7" count="12" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+      </file>
+      <file name="payments-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/payments-repository.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="22" count="12" type="stmt"/>
+      </file>
+      <file name="tickets-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/tickets-repository.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="21" type="stmt"/>
+        <line num="16" count="21" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="12" type="stmt"/>
+      </file>
+      <file name="users-repository.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/repositories/users-repository.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="11" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routers">
+      <metrics statements="61" coveredstatements="61" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="authentication-router.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/authentication-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+      </file>
+      <file name="bookings-router.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/bookings-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+      </file>
+      <file name="enrollments-router.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/enrollments-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+      </file>
+      <file name="events-router.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/events-router.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+      </file>
+      <file name="hotels-router.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/hotels-router.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+      </file>
+      <file name="paymets-router.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/paymets-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+      </file>
+      <file name="tickets-router.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/tickets-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+      </file>
+      <file name="users-router.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/routers/users-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.schemas">
+      <metrics statements="32" coveredstatements="31" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="authentication-schemas.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/schemas/authentication-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+      </file>
+      <file name="bookings-schemas.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/schemas/bookings-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+      </file>
+      <file name="enrollments-schemas.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/schemas/enrollments-schemas.ts">
+        <metrics statements="19" coveredstatements="18" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="23" count="378" type="stmt"/>
+        <line num="31" count="29" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="29" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="28" type="stmt"/>
+        <line num="41" count="19" type="cond" truecount="0" falsecount="1"/>
+        <line num="43" count="19" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="18" type="stmt"/>
+        <line num="51" count="23" type="cond" truecount="0" falsecount="1"/>
+        <line num="53" count="23" type="cond" truecount="0" falsecount="1"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="23" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/schemas/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+      </file>
+      <file name="payments-schemas.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/schemas/payments-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="tickets-schemas.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/schemas/tickets-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="users-schemas.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/schemas/users-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="161" coveredstatements="160" conditionals="47" coveredconditionals="43" methods="26" coveredmethods="26"/>
+      <file name="authentication-service.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/authentication-service.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="25" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="42" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="11" type="stmt"/>
+      </file>
+      <file name="bookings-service.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/bookings-service.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="13" count="12" type="stmt"/>
+        <line num="14" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="27" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="36" count="12" type="stmt"/>
+      </file>
+      <file name="enrollments-service.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/enrollments-service.ts">
+        <metrics statements="25" coveredstatements="24" conditionals="9" coveredconditionals="7" methods="5" coveredmethods="5"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="74" count="11" type="stmt"/>
+      </file>
+      <file name="events-service.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/events-service.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="11" type="stmt"/>
+      </file>
+      <file name="hotels-service.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/hotels-service.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="11" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="8" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="13" type="stmt"/>
+        <line num="11" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="15" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="32" count="3" type="cond" truecount="2" falsecount="1"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="40" count="11" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+      </file>
+      <file name="payments-service.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/payments-service.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="40" count="11" type="stmt"/>
+      </file>
+      <file name="tickets-service.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/tickets-service.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+      </file>
+      <file name="users-service.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/services/users-service.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="35" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="prisma-utils.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/utils/prisma-utils.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+      </file>
+      <file name="request.ts" path="/Users/heloisa/Documents/Driven/projeto21-drivent/drivent-back-sprint4/src/utils/request.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
