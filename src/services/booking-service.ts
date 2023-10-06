@@ -1,6 +1,6 @@
 import { forbidenError, notFoundError } from "@/errors";
 import { enrollmentRepository, hotelRepository, ticketsRepository } from "@/repositories";
-import { bookingsRepository } from "@/repositories/bookings-repository"
+import { bookingsRepository } from "@/repositories/booking-repository"
 
 async function getBooking(userId: number){
     const bookingRes = await bookingsRepository.getBooking(userId);

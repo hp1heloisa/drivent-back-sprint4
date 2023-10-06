@@ -1,7 +1,7 @@
 import { forbidenError, notFoundError } from "@/errors";
 import { enrollmentRepository, hotelRepository, ticketsRepository } from "@/repositories";
-import { bookingsRepository } from "@/repositories/bookings-repository";
-import { bookingsService } from "@/services/bookings-service";
+import { bookingsRepository } from "@/repositories/booking-repository";
+import { bookingsService } from "@/services/booking-service";
 
 beforeEach(() => {
     jest.clearAllMocks();
